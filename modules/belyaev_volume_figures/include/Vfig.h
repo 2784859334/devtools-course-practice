@@ -8,14 +8,14 @@ const double PI = 3.14;
 
 class Body_Volume {
  private:
-  double a;
-  double b;
+  double a;  // first x-axis coordinate
+  double b;  // second x-axis coordinate
  public:
      int n = 100;
-     Body_Volume();
-     Body_Volume(double _a, double _b);
-     double section_function_Ball(double x);
-     double calculation_volume_Ball(double a, double b, int n);
-     double calculation_volume_cube(double a, double b);
+     Body_Volume();  // default constructor
+     Body_Volume(double _a, double _b);  // constructor
+     double section_function_Ball(double x);  // section function
+     double calculation_volume_Ball(double a, double b, int n);  // ball volume
+     double calculation_volume_cube(double a, double b);  // cube volume
 };
 #endif  // MODULES_BELYAEV_VOLUME_FIGURES_INCLUDE_VFIG_H_
