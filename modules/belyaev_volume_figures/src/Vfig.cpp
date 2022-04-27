@@ -21,15 +21,12 @@ double Body_Volume::section_function_Ball(double x) {
 }
 
 double Body_Volume::calculation_volume_Ball(double a, double b, int n) {
-  double x, h;
+  double h;
   double sum = 0.0;
-  double fx;
   h = (b - a) / n;
 
   for (int i = 0; i < n; i++) {
-    x = a + i * h;
-    fx = section_function_Ball(x);
-    sum += fx;
+    sum += section_function_Ball(a + i * h);
   }
   return (sum * h);
 }

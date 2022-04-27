@@ -3,7 +3,7 @@
 #define MODULES_BELYAEV_VOLUME_FIGURES_INCLUDE_VFIG_H_
 #include <stdlib.h>
 #include <math.h>
-
+const double PI = 3.14;
 
 
 class Body_Volume {
@@ -11,7 +11,6 @@ class Body_Volume {
   double a;
   double b;
  public:
-     double PI = 3.14;
      int n = 100;
      Body_Volume();
      Body_Volume(double _a, double _b);

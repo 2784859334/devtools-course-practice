@@ -3,6 +3,9 @@
 #include <gtest/gtest.h>
 #include "include/Vfig.h"
 
+
+
+
 TEST(belyaev_volume, v1) {
   ASSERT_NO_THROW(Body_Volume());
 }
@@ -18,20 +21,17 @@ TEST(belyaev_volume, v4) {
 TEST(belyaev_volume, v5) {
   Body_Volume v;
   double x = 5;
-  double PI = 3.14;
   double S =  v.section_function_Ball(x);
   ASSERT_EQ(S, PI * x * x);
 }
 TEST(belyaev_volume, v6) {
   Body_Volume v;
   double x = -4;
-  double PI = 3.14;
   double S = v.section_function_Ball(x);
   ASSERT_EQ(S, PI * x * x);
 }
 TEST(belyaev_volume, v7) {
   Body_Volume v;
-  double PI = 3.14;
   double a = 0;
   double b = 0;
   double V = v.calculation_volume_Ball(a, b, 1000);
@@ -39,7 +39,6 @@ TEST(belyaev_volume, v7) {
 }
 TEST(belyaev_volume, v8) {
   Body_Volume v;
-  double PI = 3.14;
   double a = 0;
   double b = 1;
   double V = v.calculation_volume_Ball(a, b, 1000);
@@ -47,7 +46,6 @@ TEST(belyaev_volume, v8) {
 }
 TEST(belyaev_volume, v11) {
   Body_Volume v;
-  double PI = 3.14;
   double a = -1;
   double b = 5;
   double V = v.calculation_volume_Ball(a, b, 1000);
