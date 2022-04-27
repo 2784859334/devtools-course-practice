@@ -1,0 +1,10 @@
+# Target labels
+ belyaev_volume_figures
+ Library
+# Source files and their labels
+D:/devtools2/lab2-belyaev-ilya/modules/belyaev_volume_figures/src/DHeap.cpp
+ belyaev_volume_figures
+ Library
+D:/devtools2/lab2-belyaev-ilya/modules/belyaev_volume_figures/include/DHeap.h
+ belyaev_volume_figures
+ Library

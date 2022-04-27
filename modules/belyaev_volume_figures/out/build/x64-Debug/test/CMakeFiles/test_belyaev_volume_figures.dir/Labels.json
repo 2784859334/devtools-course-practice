@@ -1,0 +1,30 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/devtools2/lab2-belyaev-ilya/modules/belyaev_volume_figures/test/test_heap.cpp",
+			"labels" : 
+			[
+				"belyaev_volume_figures",
+				"Test"
+			]
+		},
+		{
+			"file" : "D:/devtools2/lab2-belyaev-ilya/modules/belyaev_volume_figures/test/test_main.cpp",
+			"labels" : 
+			[
+				"belyaev_volume_figures",
+				"Test"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"belyaev_volume_figures",
+			"Test"
+		],
+		"name" : "test_belyaev_volume_figures"
+	}
+}
