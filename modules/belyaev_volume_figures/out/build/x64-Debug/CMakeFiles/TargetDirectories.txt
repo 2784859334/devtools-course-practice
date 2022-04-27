@@ -1,8 +1,0 @@
-D:/devtools2/lab2-belyaev-ilya/modules/belyaev_volume_figures/out/build/x64-Debug/CMakeFiles/edit_cache.dir
-D:/devtools2/lab2-belyaev-ilya/modules/belyaev_volume_figures/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
-D:/devtools2/lab2-belyaev-ilya/modules/belyaev_volume_figures/out/build/x64-Debug/src/CMakeFiles/lib_belyaev_volume_figures.dir
-D:/devtools2/lab2-belyaev-ilya/modules/belyaev_volume_figures/out/build/x64-Debug/src/CMakeFiles/edit_cache.dir
-D:/devtools2/lab2-belyaev-ilya/modules/belyaev_volume_figures/out/build/x64-Debug/src/CMakeFiles/rebuild_cache.dir
-D:/devtools2/lab2-belyaev-ilya/modules/belyaev_volume_figures/out/build/x64-Debug/test/CMakeFiles/test_belyaev_volume_figures.dir
-D:/devtools2/lab2-belyaev-ilya/modules/belyaev_volume_figures/out/build/x64-Debug/test/CMakeFiles/edit_cache.dir
-D:/devtools2/lab2-belyaev-ilya/modules/belyaev_volume_figures/out/build/x64-Debug/test/CMakeFiles/rebuild_cache.dir
